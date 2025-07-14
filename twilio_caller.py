@@ -1,13 +1,13 @@
 from twilio.rest import Client
 
 # Use your actual Twilio details
-TWILIO_SID = "ACc95f137ef64292ea5bb68d673025bcd5"
-TWILIO_AUTH_TOKEN = "6e97a6273ea68849b8170bef5cf2fe3e"
-TWILIO_PHONE = "+16193299849"  # Your Twilio number (no spaces!)
-TO_PHONE = "+916397685405"     # Your number (must be verified in trial mode)
+TWILIO_SID = "TWILIO_SID"
+TWILIO_AUTH_TOKEN = "6TWILIO_AUTH_TOKEN"
+TWILIO_PHONE = "TWILIO_PHONE"  # Your Twilio number (no spaces!)
+TO_PHONE = "+TO_PHONE"     # Your number (must be verified in trial mode)
 
 # Your FastAPI public ngrok URL (copied from ngrok terminal)
-TWIML_URL = "https://23fb-2405-201-6826-5813-bd90-38a0-6968-2427.ngrok-free.app/voice"
+TWIML_URL = "TWIML_URL"
 
 def make_call():
     client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
